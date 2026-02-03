@@ -18,7 +18,7 @@ if EXAMPLES_PATH.exists():
 
 with st.sidebar:
     st.header("Settings")
-    model_id = st.text_input("Model id", value="google/medgemma-2b-it")
+    model_id = st.text_input("Model id", value="google/medgemma-4b-it")
     st.caption("Tip: keep a smaller model for fast demos.")
 
     show_raw = st.checkbox("Show raw model output", value=False)

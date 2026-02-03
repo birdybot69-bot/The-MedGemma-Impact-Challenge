@@ -62,7 +62,7 @@ class MedGemmaAgenticPipeline:
 
     def __init__(
         self,
-        model_id: str = "google/medgemma-2b-it",  # placeholder; confirm exact HF id
+        model_id: str = "google/medgemma-4b-it",  # default: small enough for demos
         device: str = "auto",
         max_new_tokens: int = 512,
     ):
