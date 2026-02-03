@@ -97,7 +97,9 @@ class MedGemmaAgenticPipeline:
         """Ask the model to produce a strict JSON draft."""
         self._lazy_init()
         if self._generator is None:
-            return self._draft_baseline(note)
+            structured, patient = self._draft_baseline(note)
+            # Keep return signature consistent: ((structured, patient), raw_text)
+            return (structured, patient), self._transformers_error
 
         system = (
             "You are an ED documentation assistant. You do NOT provide medical advice. "
@@ -138,7 +140,7 @@ Rules:
             patient = data.get("patient_friendly_summary") or ""
             claims = data.get("key_claims") or []
         except Exception:
-            structured, patient = self._draft_baseline(note)[0], self._draft_baseline(note)[1]
+            structured, patient = self._draft_baseline(note)
             claims = []
 
         # Build citations from evidence snippets
