@@ -1,0 +1,10 @@
+[
+  {
+    "name": "ED chest pain (synthetic)",
+    "note": "ED NOTE\n\nCC: Chest pain\nHPI: 54M with HTN, HLD presents with 2 hours substernal chest pressure radiating to left arm. Associated diaphoresis and nausea. No syncope.\nVitals: BP 168/92 HR 104 RR 18 SpO2 98% RA Temp 36.9\nExam: diaphoretic, lungs clear, normal S1/S2, no edema.\nECG: ST depressions V4-V6.\nLabs: Troponin I 0.12 (elevated).\nAssessment: likely NSTEMI.\nPlan: aspirin, heparin drip, cardiology consult, admit to telemetry, serial troponins, start high-intensity statin."
+  },
+  {
+    "name": "Clinic diabetes follow-up (synthetic)",
+    "note": "CLINIC NOTE\n\nSubjective: 62F with T2DM here for follow-up. Reports home glucose 150-220. Taking metformin 1g BID; stopped empagliflozin due to recurrent yeast infections.\nObjective: A1c 8.9%. BP 132/78. Weight 92kg.\nAssessment: uncontrolled T2DM; medication intolerance.\nPlan: discuss GLP-1 RA, lifestyle counseling, foot exam, microalbumin, retinal screening referral."
+  }
+]

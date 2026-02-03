@@ -1,0 +1,11 @@
+streamlit>=1.31
+transformers>=4.40
+accelerate>=0.27
+sentencepiece
+protobuf
+pydantic>=2
+rich
+numpy
+pandas
+scikit-learn
+rapidfuzz
